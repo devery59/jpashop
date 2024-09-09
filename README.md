@@ -62,3 +62,38 @@ The project covers common JPA performance issues encountered in real-world scena
 1. **API Development Basics:** Build basic CRUD REST APIs.
 2. **Advanced API Development:** Learn best practices for JPA-based API queries, including solutions to lazy loading issues and performance optimizations.
 3. **Critical Optimizations:** Ensure optimal performance by addressing common real-world challenges with Spring Boot and JPA, including tuning JPA query options.
+
+## 1. Main Page
+The main page of the application provides access to the different functionalities: member registration, product management, and order management.
+
+![Main Page](images/main_page.png)
+
+## 2. Register Member
+The member registration form allows you to add new members to the system by filling in their personal information such as name, city, street, and postal code.
+
+![Register Member](images/register_member.png)
+
+## 3. List of Members
+This page displays a list of registered members, along with their details like city and postal code.
+
+![List of Members](images/list_of_members.png)
+
+## 4. Register Product
+The product registration form allows you to add new products with details such as name, price, quantity, author, and ISBN.
+
+![Register Product](images/register_product.png)
+
+## 5. Product List
+This page shows the list of available products with options to edit the product details.
+
+![Product List](images/product_list.png)
+
+## 6. Order Product
+The product ordering form allows users to place orders by selecting members and products, along with the desired quantity.
+
+![Order Product](images/order_product.png)
+
+## 7. Order List
+This page displays a list of placed orders, including details like product name, price, quantity, order status, and timestamp. There is also an option to cancel an order.
+
+![Order List](images/order_list.png)
