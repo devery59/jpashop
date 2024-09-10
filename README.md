@@ -63,6 +63,23 @@ The project covers common JPA performance issues encountered in real-world scena
 2. **Advanced API Development:** Learn best practices for JPA-based API queries, including solutions to lazy loading issues and performance optimizations.
 3. **Critical Optimizations:** Ensure optimal performance by addressing common real-world challenges with Spring Boot and JPA, including tuning JPA query options.
 
+## Tech Stack
+
+### Backend:
+- **Java** (JDK 17)
+- **Spring Boot** for RESTful API development
+- **JPA** for database interaction
+- **Maven** for dependency management
+- **h2** database for small local project
+
+### Frontend:
+- **Thymeleaf** for server-side rendering
+- **Bootstrap** for responsive design
+
+### Tools:
+- **Postman** for API testing
+- **IntelliJ IDEA** for Java development
+
 ## 1. Main Page
 The main page of the application provides access to the different functionalities: member registration, product management, and order management.
 
